@@ -1,11 +1,13 @@
 import React from "react";
 import "./style.css";
 
+//Components
+import ClassComponent from './Components/ClassComponent';
+
  function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      <ClassComponent/>
     </div>
   );
 }
